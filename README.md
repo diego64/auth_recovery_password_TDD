@@ -1,28 +1,29 @@
 # Adonis API application
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Testes realizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Funcionalidades adcionandas na aplicação web</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Referência</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+<br>
 
-## Setup
+## 💻 Tecnologias
 
-Use the adonis command to install the blueprint
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-```bash
-adonis new yardstick --api-only
-```
+- [Adonis JS](https://adonisjs.com/)
+- [Node.js](https://nodejs.org/en/)
 
-or manually clone the repo and then run `npm install`.
+## 📜 Projeto
 
+O propósito dessa aplicação e utilizar TDD para validar funções de autenticação de usuário, envio de e-mail para alteração de senha e reset de senha.
 
-### Migrations
+## 📡 Testes realizados                             
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+- Login
+- Redefinição de senha de usuário
+- Envio de senha (reset) por email
+- Validação do usuário
